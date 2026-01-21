@@ -80,7 +80,7 @@ class GameEngine {
 
         // 显示对话框，隐藏选择框
         dialogueBox.style.display = 'block';
-        choiceBox.classList.add('hidden');
+        choiceBox.style.display = 'none';
 
         // 设置角色立绘
         if (character && script.emotion) {
@@ -108,6 +108,7 @@ class GameEngine {
         // 显示选择框，隐藏对话框
         dialogueBox.style.display = 'none';
         choiceBox.classList.remove('hidden');
+        choiceBox.style.display = 'block';
 
         // 设置角色立绘
         if (character && script.emotion) {

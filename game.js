@@ -47,8 +47,11 @@ class GameEngine {
 
         // 设置背景
         if (script.backgroundImage) {
-            document.getElementById('background').style.backgroundImage = 
-                `url('${script.backgroundImage}')`;
+            const bgElement = document.getElementById('background');
+            bgElement.style.backgroundImage = `url('${script.backgroundImage}')`;
+            bgElement.style.backgroundSize = 'cover';
+            bgElement.style.backgroundPosition = 'center';
+            bgElement.style.backgroundRepeat = 'no-repeat';
         }
 
         // 处理不同类型的节点

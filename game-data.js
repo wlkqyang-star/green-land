@@ -21,11 +21,11 @@ const CHARACTERS = [
     "description": "年轻丹麦外交官，力挽狂澜处理危机。",
     "isProtagonist": 1,
     "createdAt": "2026-01-21T18:02:43.000Z",
-    "spriteNeutral": "assets/characters/艾玛·安德森_Neutral.png",
-    "spriteHappy": "assets/characters/艾玛·安德森_Happy.png",
-    "spriteSad": "assets/characters/艾玛·安德森_Sad.png",
-    "spriteAngry": "assets/characters/艾玛·安德森_Angry.png",
-    "spriteSurprised": "assets/characters/艾玛·安德森_Surprised.png"
+    "spriteNeutral": "assets/characters/Emma_Neutral.png",
+    "spriteHappy": "assets/characters/Emma_Happy.png",
+    "spriteSad": "assets/characters/Emma_Sad.png",
+    "spriteAngry": "assets/characters/Emma_Angry.png",
+    "spriteSurprised": "assets/characters/Emma_Surprised.png"
   },
   {
     "id": 420006,
@@ -35,11 +35,11 @@ const CHARACTERS = [
     "description": "艾玛的导师，主张拖延化解危机。",
     "isProtagonist": 0,
     "createdAt": "2026-01-21T18:03:14.000Z",
-    "spriteNeutral": "assets/characters/拉斯部长_Neutral.png",
-    "spriteHappy": "assets/characters/拉斯部长_Happy.png",
-    "spriteSad": "assets/characters/拉斯部长_Sad.png",
-    "spriteAngry": "assets/characters/拉斯部长_Angry.png",
-    "spriteSurprised": "assets/characters/拉斯部长_Surprised.png"
+    "spriteNeutral": "assets/characters/Lars_Neutral.png",
+    "spriteHappy": "assets/characters/Lars_Happy.png",
+    "spriteSad": "assets/characters/Lars_Sad.png",
+    "spriteAngry": "assets/characters/Lars_Angry.png",
+    "spriteSurprised": "assets/characters/Lars_Surprised.png"
   },
   {
     "id": 420007,
@@ -49,11 +49,11 @@ const CHARACTERS = [
     "description": "格陵兰代表，为格陵兰独立而奔走。",
     "isProtagonist": 0,
     "createdAt": "2026-01-21T18:03:49.000Z",
-    "spriteNeutral": "assets/characters/尼娜_Neutral.png",
-    "spriteHappy": "assets/characters/尼娜_Happy.png",
-    "spriteSad": "assets/characters/尼娜_Sad.png",
-    "spriteAngry": "assets/characters/尼娜_Angry.png",
-    "spriteSurprised": "assets/characters/尼娜_Surprised.png"
+    "spriteNeutral": "assets/characters/Nina_Neutral.png",
+    "spriteHappy": "assets/characters/Nina_Happy.png",
+    "spriteSad": "assets/characters/Nina_Sad.png",
+    "spriteAngry": "assets/characters/Nina_Angry.png",
+    "spriteSurprised": "assets/characters/Nina_Surprised.png"
   },
   {
     "id": 420008,
@@ -63,11 +63,11 @@ const CHARACTERS = [
     "description": "艾玛的美国朋友，提供内部情报。",
     "isProtagonist": 0,
     "createdAt": "2026-01-21T18:04:22.000Z",
-    "spriteNeutral": "assets/characters/迈克尔_Neutral.png",
-    "spriteHappy": "assets/characters/迈克尔_Happy.png",
-    "spriteSad": "assets/characters/迈克尔_Sad.png",
-    "spriteAngry": "assets/characters/迈克尔_Angry.png",
-    "spriteSurprised": "assets/characters/迈克尔_Surprised.png"
+    "spriteNeutral": "assets/characters/Michael_Neutral.png",
+    "spriteHappy": "assets/characters/Michael_Happy.png",
+    "spriteSad": "assets/characters/Michael_Sad.png",
+    "spriteAngry": "assets/characters/Michael_Angry.png",
+    "spriteSurprised": "assets/characters/Michael_Surprised.png"
   }
 ];
 

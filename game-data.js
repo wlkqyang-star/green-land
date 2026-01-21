@@ -21,11 +21,11 @@ const CHARACTERS = [
     "description": "年轻丹麦外交官，力挽狂澜处理危机。",
     "isProtagonist": 1,
     "createdAt": "2026-01-21T18:02:43.000Z",
-    "spriteNeutral": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/JOz6rWoEJ9UBbFpZaxOXh.png",
-    "spriteHappy": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/CcZx5io5_ez7OnS5srjgl.png",
-    "spriteSad": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/IHRkm_w3cnd3C5z13iFnq.png",
-    "spriteAngry": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/IAqcGPEJUVSPecEaA8Gsc.png",
-    "spriteSurprised": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/HeCp14bwdrr9poRrRI-vy.png"
+    "spriteNeutral": "assets/characters/艾玛·安德森_Neutral.png",
+    "spriteHappy": "assets/characters/艾玛·安德森_Happy.png",
+    "spriteSad": "assets/characters/艾玛·安德森_Sad.png",
+    "spriteAngry": "assets/characters/艾玛·安德森_Angry.png",
+    "spriteSurprised": "assets/characters/艾玛·安德森_Surprised.png"
   },
   {
     "id": 420006,
@@ -35,11 +35,11 @@ const CHARACTERS = [
     "description": "艾玛的导师，主张拖延化解危机。",
     "isProtagonist": 0,
     "createdAt": "2026-01-21T18:03:14.000Z",
-    "spriteNeutral": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/UiLOfeWUthsw-dCDBRKn7.png",
-    "spriteHappy": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/IIdL0SbFFtZhNqQEEGc9W.png",
-    "spriteSad": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/r8N18PSm8tjyNJm4UYZqN.png",
-    "spriteAngry": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/1I5nXIydXszaXeCCU5rS-.png",
-    "spriteSurprised": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/x77KsR_2YdJHSS7SJCojE.png"
+    "spriteNeutral": "assets/characters/拉斯部长_Neutral.png",
+    "spriteHappy": "assets/characters/拉斯部长_Happy.png",
+    "spriteSad": "assets/characters/拉斯部长_Sad.png",
+    "spriteAngry": "assets/characters/拉斯部长_Angry.png",
+    "spriteSurprised": "assets/characters/拉斯部长_Surprised.png"
   },
   {
     "id": 420007,
@@ -49,11 +49,11 @@ const CHARACTERS = [
     "description": "格陵兰代表，为格陵兰独立而奔走。",
     "isProtagonist": 0,
     "createdAt": "2026-01-21T18:03:49.000Z",
-    "spriteNeutral": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/aKC9LhQnFeiTZYz1BLp1p.png",
-    "spriteHappy": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/aS7uqHgp-PIBPk33K75HF.png",
-    "spriteSad": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/70BNAlhDYbajxiHmaKw1R.png",
-    "spriteAngry": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/-QZ1YVKhJTtrn_HxzkZhU.png",
-    "spriteSurprised": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/IYSUVDuf8F173UadjPRyQ.png"
+    "spriteNeutral": "assets/characters/尼娜_Neutral.png",
+    "spriteHappy": "assets/characters/尼娜_Happy.png",
+    "spriteSad": "assets/characters/尼娜_Sad.png",
+    "spriteAngry": "assets/characters/尼娜_Angry.png",
+    "spriteSurprised": "assets/characters/尼娜_Surprised.png"
   },
   {
     "id": 420008,
@@ -63,11 +63,11 @@ const CHARACTERS = [
     "description": "艾玛的美国朋友，提供内部情报。",
     "isProtagonist": 0,
     "createdAt": "2026-01-21T18:04:22.000Z",
-    "spriteNeutral": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/nsmOqCfoYRTwArC8-N_VN.png",
-    "spriteHappy": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/5cvk_qtjPmlCen1jj8MI1.png",
-    "spriteSad": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/0BTaCiL5WVTQINeEt0mQD.png",
-    "spriteAngry": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/2Unx3Ux4oug5dMylga5cK.png",
-    "spriteSurprised": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/M0xnktBPhSKPfqFGeKJ-e.png"
+    "spriteNeutral": "assets/characters/迈克尔_Neutral.png",
+    "spriteHappy": "assets/characters/迈克尔_Happy.png",
+    "spriteSad": "assets/characters/迈克尔_Sad.png",
+    "spriteAngry": "assets/characters/迈克尔_Angry.png",
+    "spriteSurprised": "assets/characters/迈克尔_Surprised.png"
   }
 ];
 
@@ -85,7 +85,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:05:29.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/lPuarLiVHYo4D6oMHhX-9.png",
+    "backgroundImage": "assets/backgrounds/scene_390001.png",
     "miniGameId": null
   },
   {
@@ -101,7 +101,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:05:36.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/qY5IiGA2Bdd7tfTWTYOit.png",
+    "backgroundImage": "assets/backgrounds/scene_390002.png",
     "miniGameId": null
   },
   {
@@ -117,7 +117,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:05:44.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/5CZ0N6cR3_nzW-5HoQIUo.png",
+    "backgroundImage": "assets/backgrounds/scene_390003.png",
     "miniGameId": null
   },
   {
@@ -133,7 +133,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:05:51.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/iG61S0uYNG9-5NQvxdkqY.png",
+    "backgroundImage": "assets/backgrounds/scene_390004.png",
     "miniGameId": null
   },
   {
@@ -149,7 +149,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:05:58.000Z",
     "emotion": "angry",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/iMd4akC-SW0XwXCdGazYf.png",
+    "backgroundImage": "assets/backgrounds/scene_390005.png",
     "miniGameId": null
   },
   {
@@ -165,7 +165,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:06:05.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/5tNIjp3Cu7HEmrVCguqBU.png",
+    "backgroundImage": "assets/backgrounds/scene_390006.png",
     "miniGameId": null
   },
   {
@@ -181,7 +181,7 @@ const SCRIPTS = [
     "choices": "[{\"text\":\"强硬立场，直接拒绝美国的要求。\",\"nextIndex\":7},{\"text\":\"寻求对话，理解美国真正的诉求。\",\"nextIndex\":11},{\"text\":\"联合欧盟，共同向美国施压。\",\"nextIndex\":15}]",
     "createdAt": "2026-01-21T18:06:12.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/VLQb1vE811nzvcy9GldoX.png",
+    "backgroundImage": "assets/backgrounds/scene_390007.png",
     "miniGameId": null
   },
   {
@@ -197,7 +197,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:06:18.000Z",
     "emotion": "angry",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/5QO-OUXB4pjny1dBNoVaH.png",
+    "backgroundImage": "assets/backgrounds/scene_390008.png",
     "miniGameId": null
   },
   {
@@ -213,7 +213,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:06:25.000Z",
     "emotion": "sad",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/5Dh0TORNRr3d2TZLUb6Fe.png",
+    "backgroundImage": "assets/backgrounds/scene_390009.png",
     "miniGameId": null
   },
   {
@@ -229,7 +229,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:06:33.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/ZPwyYsL3U4fVGYv8KOVgR.png",
+    "backgroundImage": "assets/backgrounds/scene_390010.png",
     "miniGameId": null
   },
   {
@@ -245,7 +245,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:06:40.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/9ppZ-u5dBRvZM5rleme0m.png",
+    "backgroundImage": "assets/backgrounds/scene_390011.png",
     "miniGameId": 150001
   },
   {
@@ -261,7 +261,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:06:49.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/dKkysx_v_DhDZtZl1LYKM.png",
+    "backgroundImage": "assets/backgrounds/scene_390012.png",
     "miniGameId": null
   },
   {
@@ -277,7 +277,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:06:56.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/DLen2LQFv0PpB1ooft20u.png",
+    "backgroundImage": "assets/backgrounds/scene_390013.png",
     "miniGameId": null
   },
   {
@@ -293,7 +293,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:07:04.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/CbTBYnT_tYR141qYZPSXD.png",
+    "backgroundImage": "assets/backgrounds/scene_390014.png",
     "miniGameId": null
   },
   {
@@ -309,7 +309,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:07:11.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/FbQJK7QziW70eom4xmHtb.png",
+    "backgroundImage": "assets/backgrounds/scene_390015.png",
     "miniGameId": 150002
   },
   {
@@ -325,7 +325,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:07:18.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/oHIlUNkck5u6jpho2qS3p.png",
+    "backgroundImage": "assets/backgrounds/scene_390016.png",
     "miniGameId": null
   },
   {
@@ -341,7 +341,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:07:25.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/GTXH5eM_GZRMrMpn1E4vK.png",
+    "backgroundImage": "assets/backgrounds/scene_390017.png",
     "miniGameId": null
   },
   {
@@ -357,7 +357,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:07:32.000Z",
     "emotion": "happy",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/kp7sQBCaukdId_TalfGzz.png",
+    "backgroundImage": "assets/backgrounds/scene_390018.png",
     "miniGameId": null
   },
   {
@@ -373,7 +373,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:07:39.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/s1qK7nJOy_Zqp_4ve5rze.png",
+    "backgroundImage": "assets/backgrounds/scene_390019.png",
     "miniGameId": null
   },
   {
@@ -389,7 +389,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:07:45.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/HlCG72qyndVKcuWD70GxZ.png",
+    "backgroundImage": "assets/backgrounds/scene_390020.png",
     "miniGameId": 150003
   },
   {
@@ -405,7 +405,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:07:51.000Z",
     "emotion": "surprised",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/ReXiNMOsBA3tFVU2cTl30.png",
+    "backgroundImage": "assets/backgrounds/scene_390021.png",
     "miniGameId": null
   },
   {
@@ -421,7 +421,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:00.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/4_lZcTkE7vxtjCBKn89rD.png",
+    "backgroundImage": "assets/backgrounds/scene_390022.png",
     "miniGameId": null
   },
   {
@@ -437,7 +437,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:06.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/bZuPOssqhbiRbFLIJySd7.png",
+    "backgroundImage": "assets/backgrounds/scene_390023.png",
     "miniGameId": null
   },
   {
@@ -453,7 +453,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:13.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/LSXzRQ7nayomZKJBPtY-x.png",
+    "backgroundImage": "assets/backgrounds/scene_390024.png",
     "miniGameId": null
   },
   {
@@ -469,7 +469,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:22.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/LTjVillWW3QzrUEL4mhn0.png",
+    "backgroundImage": "assets/backgrounds/scene_390025.png",
     "miniGameId": null
   },
   {
@@ -485,7 +485,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:28.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/OC8RVQxqUUClP-F8W5krl.png",
+    "backgroundImage": "assets/backgrounds/scene_390026.png",
     "miniGameId": 150004
   },
   {
@@ -501,7 +501,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:37.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/BAIsAujukmrDk5UXS-mpQ.png",
+    "backgroundImage": "assets/backgrounds/scene_390027.png",
     "miniGameId": null
   },
   {
@@ -517,7 +517,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:45.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/0FXeBCebGkdFqpDZQdEhA.png",
+    "backgroundImage": "assets/backgrounds/scene_390028.png",
     "miniGameId": null
   },
   {
@@ -533,7 +533,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:51.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/TdidsNEASrrd8nn7Trp3y.png",
+    "backgroundImage": "assets/backgrounds/scene_390029.png",
     "miniGameId": null
   },
   {
@@ -549,7 +549,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:08:52.000Z",
     "emotion": "surprised",
-    "backgroundImage": "https://via.placeholder.com/400x400?text=Create%20a%2016%3A9%20widesc",
+    "backgroundImage": "assets/backgrounds/scene_390030.png",
     "miniGameId": null
   },
   {
@@ -565,7 +565,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:09:00.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/oF2B6dlv4o3x6DFA_spbt.png",
+    "backgroundImage": "assets/backgrounds/scene_390031.png",
     "miniGameId": null
   },
   {
@@ -581,7 +581,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:09:08.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/oK69c6gWBAcXGz4AN1M2v.png",
+    "backgroundImage": "assets/backgrounds/scene_390032.png",
     "miniGameId": null
   },
   {
@@ -597,7 +597,7 @@ const SCRIPTS = [
     "choices": "[{\"text\":\"呼吁北约盟友集体防御，共同对抗美国的威胁。\",\"nextIndex\":33},{\"text\":\"寻求双边解决，避免北约内部的分裂。\",\"nextIndex\":36},{\"text\":\"考虑妥协方案，寻求各方都能接受的中间路线。\",\"nextIndex\":39}]",
     "createdAt": "2026-01-21T18:09:15.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/wLjnCMAhslF11C1ftYOtd.png",
+    "backgroundImage": "assets/backgrounds/scene_390033.png",
     "miniGameId": null
   },
   {
@@ -613,7 +613,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:09:21.000Z",
     "emotion": "angry",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/4qTrHX_DybJqOAmEnZj0c.png",
+    "backgroundImage": "assets/backgrounds/scene_390034.png",
     "miniGameId": null
   },
   {
@@ -629,7 +629,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:09:29.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/yawjrz7vnk56mhsvQcQe7.png",
+    "backgroundImage": "assets/backgrounds/scene_390035.png",
     "miniGameId": null
   },
   {
@@ -645,7 +645,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:09:37.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/0zxODjTSb7NwMKqHLIqLP.png",
+    "backgroundImage": "assets/backgrounds/scene_390036.png",
     "miniGameId": null
   },
   {
@@ -661,7 +661,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:09:38.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://via.placeholder.com/400x400?text=Create%20a%2016%3A9%20widesc",
+    "backgroundImage": "assets/backgrounds/scene_390037.png",
     "miniGameId": null
   },
   {
@@ -677,7 +677,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:09:47.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/5-RRGwUIz-Yp-gSUWxdYh.png",
+    "backgroundImage": "assets/backgrounds/scene_390038.png",
     "miniGameId": null
   },
   {
@@ -693,7 +693,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:09:54.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/O8afNNkU2WLsdo12WAtAc.png",
+    "backgroundImage": "assets/backgrounds/scene_390039.png",
     "miniGameId": null
   },
   {
@@ -709,7 +709,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:10:00.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/2eVr5lZ1lTJ8mXUIBw8PU.png",
+    "backgroundImage": "assets/backgrounds/scene_390040.png",
     "miniGameId": null
   },
   {
@@ -725,7 +725,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:10:08.000Z",
     "emotion": "angry",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/qbvHD1SefZhICFkhHJgAa.png",
+    "backgroundImage": "assets/backgrounds/scene_390041.png",
     "miniGameId": null
   },
   {
@@ -741,7 +741,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:10:17.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/ovtIPKeJmI6zDKrCH2_1M.png",
+    "backgroundImage": "assets/backgrounds/scene_390042.png",
     "miniGameId": null
   },
   {
@@ -757,7 +757,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:10:24.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/c_zWV4Ombrsy9VDtbMIgA.png",
+    "backgroundImage": "assets/backgrounds/scene_390043.png",
     "miniGameId": null
   },
   {
@@ -773,7 +773,7 @@ const SCRIPTS = [
     "choices": "[{\"text\":\"坚持主权不可谈判，呼吁欧盟集体声援。\",\"nextIndex\":43},{\"text\":\"提出格陵兰稀土资源开发合作方案，邀请多方参与。\",\"nextIndex\":53},{\"text\":\"支持格陵兰独立，成为一个中立国。\",\"nextIndex\":63}]",
     "createdAt": "2026-01-21T18:10:32.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/juVIlyJfW95WJyhfgCATa.png",
+    "backgroundImage": "assets/backgrounds/scene_390044.png",
     "miniGameId": null
   },
   {
@@ -789,7 +789,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:10:39.000Z",
     "emotion": "angry",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/RHXfR1gJnd4ARowWHRlSD.png",
+    "backgroundImage": "assets/backgrounds/scene_390045.png",
     "miniGameId": null
   },
   {
@@ -805,7 +805,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:10:46.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/JBoYvuS4ZwwMZKObnL1qv.png",
+    "backgroundImage": "assets/backgrounds/scene_390046.png",
     "miniGameId": null
   },
   {
@@ -821,7 +821,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:10:52.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/hxH0YGJr-3-NvgglK-_wm.png",
+    "backgroundImage": "assets/backgrounds/scene_390047.png",
     "miniGameId": null
   },
   {
@@ -837,7 +837,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:10:58.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/zkUTybcWjoM6Zqgzym9wG.png",
+    "backgroundImage": "assets/backgrounds/scene_390048.png",
     "miniGameId": 150005
   },
   {
@@ -853,7 +853,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:11:06.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/6zYIxXP-4mr7SfuxW1q6U.png",
+    "backgroundImage": "assets/backgrounds/scene_390049.png",
     "miniGameId": null
   },
   {
@@ -869,7 +869,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:11:14.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/LfJpQxr7WAFlnYFLAli9E.png",
+    "backgroundImage": "assets/backgrounds/scene_390050.png",
     "miniGameId": null
   },
   {
@@ -885,7 +885,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:11:25.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/f2IoYx8_9lHT83Ug0g2LY.png",
+    "backgroundImage": "assets/backgrounds/scene_390051.png",
     "miniGameId": null
   },
   {
@@ -901,7 +901,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:11:31.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/QxpPJyr4q8rEObjwReyGd.png",
+    "backgroundImage": "assets/backgrounds/scene_390052.png",
     "miniGameId": null
   },
   {
@@ -917,7 +917,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:11:38.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/xXPoXT0M6xJ0qYoJEUsVP.png",
+    "backgroundImage": "assets/backgrounds/scene_390053.png",
     "miniGameId": null
   },
   {
@@ -933,7 +933,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:11:48.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/KWTgv0PdD1VVX_hB7YyqE.png",
+    "backgroundImage": "assets/backgrounds/scene_390054.png",
     "miniGameId": null
   },
   {
@@ -949,7 +949,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:11:56.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/shYeQwVXNnMyKwZ3V9E8a.png",
+    "backgroundImage": "assets/backgrounds/scene_390055.png",
     "miniGameId": null
   },
   {
@@ -965,7 +965,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:12:06.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/RUdx5OCuBndQ9tf2diUTy.png",
+    "backgroundImage": "assets/backgrounds/scene_390056.png",
     "miniGameId": null
   },
   {
@@ -981,7 +981,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:12:14.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/QxkF82a3vJII3xzPYwiB1.png",
+    "backgroundImage": "assets/backgrounds/scene_390057.png",
     "miniGameId": 150006
   },
   {
@@ -997,7 +997,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:12:24.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/I1G-Kkn2Zn7yvwBSaLsqI.png",
+    "backgroundImage": "assets/backgrounds/scene_390058.png",
     "miniGameId": null
   },
   {
@@ -1013,7 +1013,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:12:30.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/A6zY7gEvuOl6K-AqIxq-q.png",
+    "backgroundImage": "assets/backgrounds/scene_390059.png",
     "miniGameId": null
   },
   {
@@ -1029,7 +1029,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:12:39.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/l6Tg7SIyzSFMqgbY4VOYu.png",
+    "backgroundImage": "assets/backgrounds/scene_390060.png",
     "miniGameId": null
   },
   {
@@ -1045,7 +1045,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:12:47.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/2P_RpHsLg6co6FxlpoCqU.png",
+    "backgroundImage": "assets/backgrounds/scene_390061.png",
     "miniGameId": null
   },
   {
@@ -1061,7 +1061,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:12:59.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/TJL-iRaXg4jcTNx-DbV0V.png",
+    "backgroundImage": "assets/backgrounds/scene_390062.png",
     "miniGameId": null
   },
   {
@@ -1077,7 +1077,7 @@ const SCRIPTS = [
     "choices": null,
     "createdAt": "2026-01-21T18:13:06.000Z",
     "emotion": "neutral",
-    "backgroundImage": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/XQ7RLWHDOYzqpDkk_KBC4.png",
+    "backgroundImage": "assets/backgrounds/scene_390063.png",
     "miniGameId": null
   }
 ];

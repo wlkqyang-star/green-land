@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
+    overflow: hidden;
+    background: #000;
+}
+
+.screen {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+.screen.active {
+    display: flex;
+}
+
+/* 开始界面 */
+#start-screen {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    text-align: center;
+    color: white;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.game-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.game-subtitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.game-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    opacity: 0.85;
+}
+
+.btn-primary {
+    padding: 15px 50px;
+    font-size: 1.5rem;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+}
+
+/* 游戏界面 */
+#game-screen {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s;
+}
+
+.character {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 400px;
+    height: 500px;
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.dialogue-box {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 15px;
+    padding: 25px;
+    color: white;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+}
+
+.character-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #4fc3f7;
+    margin-bottom: 10px;
+}
+
+.dialogue-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    min-height: 60px;
+}
+
+.next-btn {
+    float: right;
+    padding: 10px 25px;
+    background: #4fc3f7;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.next-btn:hover {
+    background: #039be5;
+    transform: scale(1.05);
+}
+
+.choice-box {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1000px;
+}
+
+.choice-box.hidden {
+    display: none;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.choice-btn {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    border: 2px solid #4fc3f7;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    text-align: left;
+}
+
+.choice-btn:hover {
+    background: rgba(79, 195, 247, 0.3);
+    transform: translateX(10px);
+    border-color: #81d4fa;
+}
+
+/* 小游戏容器 */
+.minigame-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.minigame-container.hidden {
+    display: none;
+}
+
+.minigame-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.minigame-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.minigame-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.minigame-btn {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.minigame-start {
+    background: #4caf50;
+    color: white;
+}
+
+.minigame-skip {
+    background: #ff9800;
+    color: white;
+}
+
+.minigame-btn:hover {
+    transform: scale(1.05);
+}
+
+/* 小游戏画布 */
+.game-canvas {
+    background: #1a1a2e;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.game-info {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* 结局界面 */
+.ending-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px;
+}
+
+.ending-screen.hidden {
+    display: none;
+}
+
+#ending-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#ending-content {
+    font-size: 1.3rem;
+    line-height: 2;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .game-title {
+        font-size: 2.5rem;
+    }
+    
+    .game-subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .character {
+        width: 250px;
+        height: 350px;
+        right: 5%;
+    }
+    
+    .dialogue-text {
+        font-size: 1rem;
+    }
+    
+    .choice-btn {
+        font-size: 1rem;
+        padding: 15px;
+    }
+}

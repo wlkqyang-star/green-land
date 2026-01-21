@@ -1,0 +1,58 @@
+[
+  {
+    "id": 420005,
+    "gameId": 420002,
+    "characterId": "emma",
+    "name": "艾玛·安德森",
+    "description": "年轻丹麦外交官，力挽狂澜处理危机。",
+    "isProtagonist": 1,
+    "createdAt": "2026-01-21T18:02:43.000Z",
+    "spriteNeutral": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/JOz6rWoEJ9UBbFpZaxOXh.png",
+    "spriteHappy": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/CcZx5io5_ez7OnS5srjgl.png",
+    "spriteSad": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/IHRkm_w3cnd3C5z13iFnq.png",
+    "spriteAngry": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/IAqcGPEJUVSPecEaA8Gsc.png",
+    "spriteSurprised": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/HeCp14bwdrr9poRrRI-vy.png"
+  },
+  {
+    "id": 420006,
+    "gameId": 420002,
+    "characterId": "lars",
+    "name": "拉斯部长",
+    "description": "艾玛的导师，主张拖延化解危机。",
+    "isProtagonist": 0,
+    "createdAt": "2026-01-21T18:03:14.000Z",
+    "spriteNeutral": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/UiLOfeWUthsw-dCDBRKn7.png",
+    "spriteHappy": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/IIdL0SbFFtZhNqQEEGc9W.png",
+    "spriteSad": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/r8N18PSm8tjyNJm4UYZqN.png",
+    "spriteAngry": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/1I5nXIydXszaXeCCU5rS-.png",
+    "spriteSurprised": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/x77KsR_2YdJHSS7SJCojE.png"
+  },
+  {
+    "id": 420007,
+    "gameId": 420002,
+    "characterId": "nina",
+    "name": "尼娜",
+    "description": "格陵兰代表，为格陵兰独立而奔走。",
+    "isProtagonist": 0,
+    "createdAt": "2026-01-21T18:03:49.000Z",
+    "spriteNeutral": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/aKC9LhQnFeiTZYz1BLp1p.png",
+    "spriteHappy": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/aS7uqHgp-PIBPk33K75HF.png",
+    "spriteSad": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/70BNAlhDYbajxiHmaKw1R.png",
+    "spriteAngry": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/-QZ1YVKhJTtrn_HxzkZhU.png",
+    "spriteSurprised": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/IYSUVDuf8F173UadjPRyQ.png"
+  },
+  {
+    "id": 420008,
+    "gameId": 420002,
+    "characterId": "michael",
+    "name": "迈克尔",
+    "description": "艾玛的美国朋友，提供内部情报。",
+    "isProtagonist": 0,
+    "createdAt": "2026-01-21T18:04:22.000Z",
+    "spriteNeutral": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/nsmOqCfoYRTwArC8-N_VN.png",
+    "spriteHappy": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/5cvk_qtjPmlCen1jj8MI1.png",
+    "spriteSad": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/0BTaCiL5WVTQINeEt0mQD.png",
+    "spriteAngry": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/2Unx3Ux4oug5dMylga5cK.png",
+    "spriteSurprised": "https://d2xsxph8kpxj0f.cloudfront.net/110780431/ZFrcFM2Ci5q2v48n4NzwiH/game-images/M0xnktBPhSKPfqFGeKJ-e.png"
+  }
+]

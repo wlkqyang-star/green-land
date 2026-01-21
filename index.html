@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>格陵兰岛危机：冰与火的抉择</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- 开始界面 -->
+        <div id="start-screen" class="screen active">
+            <div class="title-container">
+                <h1 class="game-title">格陵兰岛危机</h1>
+                <h2 class="game-subtitle">冰与火的抉择</h2>
+                <p class="game-description">
+                    2026年1月，美国总统特朗普突然宣布要"吞并"格陵兰岛。<br>
+                    你是丹麦外交官艾玛·安德森，在这场国际危机中做出关键决策。
+                </p>
+                <button id="start-btn" class="btn-primary">开始游戏</button>
+            </div>
+        </div>
+
+        <!-- 游戏界面 -->
+        <div id="game-screen" class="screen">
+            <!-- 背景图 -->
+            <div id="background" class="background"></div>
+            
+            <!-- 角色立绘 -->
+            <div id="character" class="character"></div>
+            
+            <!-- 对话框 -->
+            <div id="dialogue-box" class="dialogue-box">
+                <div id="character-name" class="character-name"></div>
+                <div id="dialogue-text" class="dialogue-text"></div>
+                <button id="next-btn" class="next-btn">继续 ▶</button>
+            </div>
+            
+            <!-- 选择框 -->
+            <div id="choice-box" class="choice-box hidden">
+                <div id="choices"></div>
+            </div>
+            
+            <!-- 小游戏容器 -->
+            <div id="minigame-container" class="minigame-container hidden"></div>
+            
+            <!-- 结局界面 -->
+            <div id="ending-screen" class="ending-screen hidden">
+                <h2 id="ending-title"></h2>
+                <p id="ending-content"></p>
+                <button id="restart-btn" class="btn-primary">重新开始</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game-data.js"></script>
+    <script src="minigames.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

@@ -28,8 +28,8 @@ class GameEngine {
         document.getElementById('start-screen').classList.remove('active');
         document.getElementById('game-screen').classList.add('active');
         
-        // 找到第一个节点
-        const firstNode = SCRIPTS.find(s => s.nodeType === 'dialogue');
+        // 找到第一个节点（支持narrator、dialogue等类型）
+        const firstNode = SCRIPTS[0];
         if (firstNode) {
             this.loadScript(firstNode.id);
         }
@@ -56,6 +56,7 @@ class GameEngine {
 
         // 处理不同类型的节点
         switch (script.nodeType) {
+            case 'narrator':
             case 'dialogue':
                 this.showDialogue(script);
                 break;

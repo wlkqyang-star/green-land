@@ -235,5 +235,5 @@ class GameEngine {
 
 // 启动游戏
 window.addEventListener('DOMContentLoaded', () => {
-    new GameEngine();
+    window.gameEngine = new GameEngine();
 });

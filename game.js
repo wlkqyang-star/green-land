@@ -238,6 +238,10 @@ function getScriptById(id) {
     return SCRIPTS.find(s => s.id === id);
 }
 
+function getCharacterById(id) {
+    return CHARACTERS.find(c => c.id === id);
+}
+
 // 启动游戏
 window.addEventListener('DOMContentLoaded', () => {
     window.gameEngine = new GameEngine();

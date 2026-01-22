@@ -96,7 +96,7 @@ class GameEngine {
 
         // 设置对话内容
         document.getElementById('character-name').textContent = character ? character.name : '';
-        document.getElementById('dialogue-text').textContent = script.content || '';
+        document.getElementById('dialogue-text').textContent = script.text || script.content || '';
     }
 
     showChoice(script) {
